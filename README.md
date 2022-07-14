@@ -24,4 +24,29 @@ Project FullFrame is a mega collection for the most popular web development fram
 - VanillaJS - ⏸️ (initialised)
 - VueJS - ⏸️
 
+## Specifications
+### AngularJS
+
+### Django
+
+### GatsbyJS
+
+### Net Core
+
+### NextJS
+- Next: 12.2.0
+- Firebase: 9.9.0
+
+### ReactJS
+- React: 18.2.0
+- Firebase: 9.9.0
+
+### Ruby On Rails
+
+### Svelte
+
+### VanillaJS
+
+### VueJS
+
 ## Reflections and Thoughts
