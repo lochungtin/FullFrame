@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import { bindData } from './api/firebase';
 import Active from './pages/active';
@@ -12,8 +12,10 @@ import './App.css';
 import { setActive, setArchive } from './redux/data';
 
 export default function App() {
-	const dispatch = useDispatch();
 	const location = useLocation();
+	const dispatch = useDispatch();
+	const activeCount = useSelector(state => state.data.activeCount);
+	const archiveCount = useSelector(state => state.data.archiveCount);
 
 	const isActive = location.pathname === '/';
 
@@ -25,11 +27,11 @@ export default function App() {
 				<div className='navbar'>
 					<Link to='/' className={`navbtn ${isActive ? 'navbtnSelected' : ''}`}>
 						<img src={activeLogo} alt='active' width={24} />
-						<p className='navtext'>Active</p>
+						<p className='navtext'>Active({activeCount})</p>
 					</Link>
 					<Link to='/archive' className={`navbtn ${isActive ? '' : 'navbtnSelected'}`}>
 						<img src={archiveLogo} alt='archive' width={20} />
-						<p className='navtext'>Archived</p>
+						<p className='navtext'>Archived({archiveCount})</p>
 					</Link>
 				</div>
 			</div>
