@@ -17,10 +17,7 @@ export default function App() {
 
 	const isActive = location.pathname === '/';
 
-	bindData(
-		active => dispatch(setActive(active)),
-		archive => dispatch(setArchive(archive)),
-	);
+	bindData(active => dispatch(setActive(active)), archive => dispatch(setArchive(archive)));
 
 	return (
 		<div className='body'>
@@ -37,8 +34,8 @@ export default function App() {
 				</div>
 			</div>
 			<Routes>
-				<Route path="/" element={<Active />} />
-				<Route path="/archive" element={<Archive />} />
+				<Route path='/' element={<Active />} />
+				<Route path='/archive' element={<Archive />} />
 			</Routes>
 		</div>
 	);

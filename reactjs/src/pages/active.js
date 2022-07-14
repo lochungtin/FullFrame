@@ -10,9 +10,7 @@ export default function Active() {
     const [title, setTitle] = useState('');
     const active = useSelector(state => state.data.active);
 
-    const handleChange = event => {
-        setTitle(event.target.value);
-    }
+    const handleChange = event => setTitle(event.target.value);
 
     const handleSubmit = event => {
         event.preventDefault();
@@ -28,7 +26,7 @@ export default function Active() {
     }
 
     return (
-        <div>
+        <>
             <form onSubmit={handleSubmit} className='inputroot'>
                 <input type='text' value={title} placeholder='New Todo ...' onChange={handleChange} className='inputbox' />
                 <button type='submit' className='inputbtn'>
@@ -50,6 +48,6 @@ export default function Active() {
                     </div>
                 )
             })}
-        </div>
+        </>
     )
 }
