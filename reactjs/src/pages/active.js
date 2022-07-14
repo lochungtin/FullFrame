@@ -37,14 +37,16 @@ export default function Active() {
             </form>
             {Object.entries(active || {}).map(([timeID, title]) => {
                 return (
-                    <div>
+                    <div className='todoentry'>
                         <p>{title}</p>
-                        <button className='inputbtn' onClick={() => handleArchive(timeID, title)}>
-                            <img src={submitBtn} alt='archive' width={30} />
-                        </button>
-                        <button className='inputbtn' onClick={() => handleArchive(timeID, title)}>
-                            <img src={binBtn} alt='delete' width={30} />
-                        </button>
+                        <div className='todobtn'>
+                            <button className='inputbtn' onClick={() => deleteActive(timeID)}>
+                                <img src={binBtn} alt='delete' width={25} />
+                            </button>
+                            <button className='inputbtn' onClick={() => handleArchive(timeID, title)}>
+                                <img src={submitBtn} alt='archive' width={30} />
+                            </button>
+                        </div>
                     </div>
                 )
             })}

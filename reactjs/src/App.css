@@ -67,3 +67,21 @@
 .inputbtn {
     margin-left: 20px;
 }
+
+.todoentry {
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+    height: 40px;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.todobtn {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
