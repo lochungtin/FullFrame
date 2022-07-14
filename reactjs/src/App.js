@@ -9,6 +9,7 @@ import Archive from './pages/archive';
 import activeLogo from './assets/active.svg';
 import archiveLogo from './assets/archive.svg';
 import './App.css';
+import { setActive, setArchive } from './redux/data';
 
 export default function App() {
 	const dispatch = useDispatch();
@@ -16,7 +17,10 @@ export default function App() {
 
 	const isActive = location.pathname === '/';
 
-	bindData(console.log, console.log);
+	bindData(
+		active => dispatch(setActive(active)),
+		archive => dispatch(setArchive(archive)),
+	);
 
 	return (
 		<div className='body'>
