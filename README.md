@@ -52,6 +52,12 @@ Project FullFrame is a mega collection for the most popular web development fram
 ## Reflections and Thoughts
 ### ReactJS
 
-- A lot of unused "test" files initialised
-    - `./src` directory is a mess
-- Routing is done by an external package
+- Pros:
+    - Nice abstraction
+    - Easy to transfer knowledge from plain html
+- Cons:
+    - Hooks might be counterintuitive at first
+    - Routing is done by an external package
+    - A lot of unused "test" files initialised
+        - `./src` directory is a mess
+
