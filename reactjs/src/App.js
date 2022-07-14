@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 
+import { bindData } from './api/firebase';
 import Active from './pages/active';
 import Archive from './pages/archive';
 
@@ -9,9 +11,12 @@ import archiveLogo from './assets/archive.svg';
 import './App.css';
 
 export default function App() {
-	let location = useLocation();
+	const dispatch = useDispatch();
+	const location = useLocation();
 
-	let isActive = location.pathname === '/';
+	const isActive = location.pathname === '/';
+
+	bindData(console.log, console.log);
 
 	return (
 		<div className='body'>
