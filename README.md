@@ -55,7 +55,7 @@ Project FullFrame is a mega collection for the most popular web development fram
 - Pros:
     - Nice abstraction
     - Easy to transfer knowledge from plain html
-    - Very simple firebase integration
+    - Very simple Firebase integration
 - Cons:
     - Hooks might be counterintuitive at first
     - Routing is done by an external package
