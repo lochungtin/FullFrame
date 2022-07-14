@@ -33,9 +33,9 @@ export default function Active() {
                     <img src={submitBtn} alt='submit' width={30} />
                 </button>
             </form>
-            {Object.entries(active || {}).map(([timeID, title]) => {
+            {Object.entries(active).map(([timeID, title]) => {
                 return (
-                    <div className='todoentry'>
+                    <div className='todoentry' key={timeID}>
                         <p>{title}</p>
                         <div className='todobtn'>
                             <button className='inputbtn' onClick={() => handleArchive(timeID, title)}>

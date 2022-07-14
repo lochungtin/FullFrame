@@ -16,9 +16,9 @@ export default function Archive() {
 
     return (
         <>
-            {Object.entries(archive || {}).map(([timeID, title]) => {
+            {Object.entries(archive).map(([timeID, title]) => {
                 return (
-                    <div className='todoentry'>
+                    <div className='todoentry' key={timeID}>
                         <p>{title}</p>
                         <div className='todobtn'>
                             <button className='inputbtn' onClick={() => handleActivate(timeID, title)}>
