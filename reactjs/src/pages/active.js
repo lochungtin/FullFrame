@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { newActive, newArchive, deleteActive } from '../api/firebase';
 
 import submitBtn from '../assets/check.svg';
-import binBtn from '../assets/bin.svg';
+import deleteBtn from '../assets/delete.svg';
 
 export default function Active() {
     const [title, setTitle] = useState('');
@@ -40,11 +40,11 @@ export default function Active() {
                     <div className='todoentry'>
                         <p>{title}</p>
                         <div className='todobtn'>
-                            <button className='inputbtn' onClick={() => deleteActive(timeID)}>
-                                <img src={binBtn} alt='delete' width={25} />
-                            </button>
                             <button className='inputbtn' onClick={() => handleArchive(timeID, title)}>
                                 <img src={submitBtn} alt='archive' width={30} />
+                            </button>
+                            <button className='inputbtn' onClick={() => deleteActive(timeID)}>
+                                <img src={deleteBtn} alt='delete' width={30} />
                             </button>
                         </div>
                     </div>
