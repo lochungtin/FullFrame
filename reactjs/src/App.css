@@ -1,0 +1,46 @@
+.body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+.navbarRoot {
+    align-items: center;
+    background-color: #eeeeee;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    width: 400px;
+}
+
+.navbtn {
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 17.5px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    justify-content: center;
+    text-decoration: none;
+    width: 175px;
+}
+
+.navbtnSelected {
+    border-color: #1ea1e8;   
+}
+
+.navtext {
+    margin-left: 20px;
+}

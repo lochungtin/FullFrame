@@ -50,3 +50,8 @@ Project FullFrame is a mega collection for the most popular web development fram
 ### VueJS
 
 ## Reflections and Thoughts
+### ReactJS
+
+- A lot of unused "test" files initialised
+    - `./src` directory is a mess
+- Routing is done by an external package
