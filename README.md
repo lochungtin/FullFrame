@@ -24,34 +24,12 @@ Project FullFrame is a mega collection for the most popular web development fram
 - VanillaJS - ⏸️ (initialised)
 - VueJS - ⏸️
 
-## Specifications
-### AngularJS
 
-### Django
-
-### GatsbyJS
-
-### Net Core
-
-### NextJS
-- Next: 12.2.0
-- Firebase: 9.9.0
+## Specifications, Reflections, and Thoughts
 
 ### ReactJS
-- React: 18.2.0
-- Firebase: 9.9.0
-
-### Ruby On Rails
-
-### Svelte
-
-### VanillaJS
-
-### VueJS
-
-## Reflections and Thoughts
-### ReactJS
-
+- Version:
+    - React: 18.2.0
 - Pros:
     - Nice abstraction
     - Easy to transfer knowledge from plain html
@@ -61,4 +39,3 @@ Project FullFrame is a mega collection for the most popular web development fram
     - Routing is done by an external package
     - A lot of unused "test" files initialised
         - `./src` directory is a mess
-
