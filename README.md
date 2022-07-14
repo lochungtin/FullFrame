@@ -18,7 +18,7 @@ Project FullFrame is a mega collection for the most popular web development fram
 - GatsbyJS - ⏸️
 - Net Core - ⏸️
 - NextJS - ⏸️ (initialised)
-- ReactJS - ⏸️ (initialised)
+- ReactJS - ✅ (initialised)
 - Ruby On Rails - ⏸️
 - Svelte - ⏸️
 - VanillaJS - ⏸️ (initialised)
