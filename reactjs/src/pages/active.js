@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 
-import { newActive, } from '../api/firebase';
+import { newActive, newArchive, deleteActive } from '../api/firebase';
 
 import submitBtn from '../assets/check.svg';
+import binBtn from '../assets/bin.svg';
 
 export default function Active() {
     const [title, setTitle] = useState('');
@@ -15,8 +16,15 @@ export default function Active() {
 
     const handleSubmit = event => {
         event.preventDefault();
-        newActive(title);
-        setTitle('');
+        if (title) {
+            newActive(title);
+            setTitle('');
+        }
+    }
+
+    const handleArchive = (timeID, title) => {
+        newArchive(title);
+        deleteActive(timeID);
     }
 
     return (
@@ -28,9 +36,17 @@ export default function Active() {
                 </button>
             </form>
             {Object.entries(active || {}).map(([timeID, title]) => {
-                return <div>
-                    <p>{title}</p>
-                </div>
+                return (
+                    <div>
+                        <p>{title}</p>
+                        <button className='inputbtn' onClick={() => handleArchive(timeID, title)}>
+                            <img src={submitBtn} alt='archive' width={30} />
+                        </button>
+                        <button className='inputbtn' onClick={() => handleArchive(timeID, title)}>
+                            <img src={binBtn} alt='delete' width={30} />
+                        </button>
+                    </div>
+                )
             })}
         </div>
     )

@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { child, get, getDatabase, onValue, push, set, ref, remove, } from 'firebase/database';
+import { child, getDatabase, onValue, set, ref, remove, } from 'firebase/database';
 
 const database = getDatabase(initializeApp({
     apiKey: "AIzaSyAKTOBZGDB19eVCggE4cSMnfwCyRh6KXJg",
@@ -29,7 +29,7 @@ export function newActive(title) {
 
 export function newArchive(title) {
     let timeID = new Date().getTime().toString();
-    set(child(activeRef, timeID), title);
+    set(child(archiveRef, timeID), title);
 }
 
 export function deleteActive(timeID) {
