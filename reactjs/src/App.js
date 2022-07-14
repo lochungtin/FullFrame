@@ -13,7 +13,6 @@ export default function App() {
 
 	let isActive = location.pathname === '/';
 
-
 	return (
 		<div className='body'>
 			<div className='navbarRoot'>
