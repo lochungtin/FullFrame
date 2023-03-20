@@ -2,21 +2,29 @@
 <html>
 
 <head>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="index.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
 <body>
     <main>
         <header>
-            <img src="../assets/location.png" width="30px" height="30px" alt="location" />
+            <button onclick="toggleFav()">
+                <img id="fav" src="../assets/unfav.png" width="30px" height="30px" alt="location" />
+            </button>
             <input id="query" type="text" placeholder="location"></input>
-            <button id="submit">
-                <img src="../assets/search.png" width="28px" height="28px" alt="search" onclick="submit()" />
+            <button id="submit" onclick="submit()">
+                <img src="../assets/search.png" width="28px" height="28px" alt="search" />
             </button>
         </header>
         <div id="main"></div>
     </main>
+    <a href="fav.html">
+        FAVOURITES
+    </a>
 </body>
 
 </html>
