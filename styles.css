@@ -105,9 +105,6 @@ article div div p {
 }
 
 @media screen and (max-width: 425px) {
-	* {
-		font-size: 1rem;
-	}
 	main {
 		width: 80%;
 	}
