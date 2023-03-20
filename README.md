@@ -16,7 +16,7 @@ Project FullFrame is a mega collection for the most popular web development fram
 -   ReactJS - ⏸️
 -   Ruby On Rails - ⏸️
 -   Svelte - ⏸️
--   VanillaJS - ⏸️
+-   VanillaJS - ✅
 -   VueJS - ⏸️
 
 ## Specifications, Reflections, and Thoughts
