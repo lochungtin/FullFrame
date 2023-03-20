@@ -40,7 +40,20 @@ Project FullFrame is a mega collection for the most popular web development fram
     <summary>⏸️ Svelte</summary>    
 </details>
 <details>
-    <summary>✅ VanillaJS</summary>    
+    <summary>✅ VanillaJS</summary>
+
+### Overall Score
+
+```
+Rank 1/10
+```
+
+### Thoughts
+
+-   Storage is easy to manage with `window.localStorage`
+-   Generating new HTML nodes for data display is very convoluted
+-   Extremely small codebase, very easy to navigate
+
 </details>
 <details>
     <summary>⏸️ VueJS</summary>    
