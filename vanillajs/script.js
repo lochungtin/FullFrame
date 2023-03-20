@@ -17,7 +17,7 @@ const submit = () => {
             mainImg.width = 120;
             mainImg.height = 120;
 
-            const footer = document.createElement('footer');
+            const footer = document.createElement('div');
             const tempDiv = document.createElement('div');
             const humDiv = document.createElement('div');
 
