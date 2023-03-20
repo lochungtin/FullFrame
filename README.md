@@ -16,28 +16,84 @@ Project FullFrame is a mega collection for the most popular web development fram
 ## Framework list, Status, and Thoughts
 
 <details>
-    <summary>⏸️ AngularJS</summary>    
+    <summary>⏸️ AngularJS</summary>
+
+### Overall Score
+
+```
+Rank #/10
+```
+
 </details>
 <details>
-    <summary>⏸️ Django</summary>    
+    <summary>⏸️ Django</summary>
+
+### Overall Score
+
+```
+Rank #/10
+```
+
 </details>
 <details>
-    <summary>⏸️ GatsbyJS</summary>    
+    <summary>⏸️ GatsbyJS</summary>
+
+### Overall Score
+
+```
+Rank #/10
+```
+
 </details>
 <details>
-    <summary>⏸️ Net Core</summary>    
+    <summary>⏸️ Net Core</summary>
+
+### Overall Score
+
+```
+Rank #/10
+```
+
 </details>
 <details>
-    <summary>⏸️ NextJS</summary>    
+    <summary>⏸️ NextJS</summary>
+
+### Overall Score
+
+```
+Rank #/10
+```
+
 </details>
 <details>
-    <summary>⏸️ ReactJS</summary>    
+    <summary>⏸️ RemixJS</summary>
+
+### Overall Score
+
+```
+Rank #/10
+```
+
 </details>
 <details>
-    <summary>⏸️ RubyOnRails</summary>    
+    <summary>⏸️ RubyOnRails</summary>
+
+### Overall Score
+
+```
+Rank #/10
+```
+
 </details>
 <details>
-    <summary>⏸️ Svelte</summary>    
+    <summary>⏸️ Svelte</summary>
+
+### Overall Score
+
+```
+Rank #/10
+```
+
 </details>
 <details>
     <summary>✅ VanillaJS</summary>
@@ -45,7 +101,7 @@ Project FullFrame is a mega collection for the most popular web development fram
 ### Overall Score
 
 ```
-Rank 1/10
+Rank #/10
 ```
 
 ### Thoughts
@@ -56,5 +112,12 @@ Rank 1/10
 
 </details>
 <details>
-    <summary>⏸️ VueJS</summary>    
+    <summary>⏸️ VueJS</summary>
+
+### Overall Score
+
+```
+Rank #/10
+```
+
 </details>
