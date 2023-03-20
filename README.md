@@ -4,7 +4,14 @@ Project FullFrame is a mega collection for the most popular web development fram
 
 ## App Idea - Simple Weather App
 
--   Search for current weather information of given location
+-   **User Interaction**
+    -   Search for current weather information of given location
+-   **Storage**
+    -   Save favourite locations
+-   **API Integration**
+    -   Retrieve weather data
+-   **Routing**
+    -   Search / favourite page
 
 ## Framework list and Development Status
 
