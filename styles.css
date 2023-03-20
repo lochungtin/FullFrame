@@ -26,6 +26,13 @@ body {
 	justify-content: center;
 }
 
+section {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
 header {
 	align-items: center;
 	display: flex;

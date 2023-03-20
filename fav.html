@@ -9,16 +9,35 @@
 </head>
 
 <body>
-    <main>
-        <header>
-            <img src="assets/fav.png" width="30px" height="30px" alt="location" />
-            <input id="query" type="text" placeholder="location"></input>
-            <button id="submit">
-                <img src="assets/search.png" width="28px" height="28px" alt="search" onclick="submit()" />
-            </button>
-        </header>
-        <div id="main"></div>
-    </main>
+    <section>
+        <button onclick="favIndex(-1)">
+            <img src="assets/left.png" />
+        </button>
+        <main>
+            <header>
+                <img src="assets/fav.png" width="30px" height="30px" alt="location" />
+                <h2 id="title"></h2>
+            </header>
+            <div id="main">
+                <article>
+                    <img id="icon" width="120px" height="120px">
+                    <div>
+                        <div>
+                            <img src="assets/temp.png" width="30px" height="30px" />
+                            <p id="temp"></p>
+                        </div>
+                        <div>
+                            <img src="assets/humid.png" width="30px" height="30px" />
+                            <p id="humid"></p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <button onclick="favIndex(1)">
+            <img src="assets/right.png" />
+        </button>
+    </section>
     <a href="index.html">
         BACK TO MAIN
     </a>
