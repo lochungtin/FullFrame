@@ -11,17 +11,28 @@ export default function Home() {
 	const textChange = (ev) => setInput(ev.target.value);
 
 	const search = async () => {
+		if (!input) return;
+
 		setContent(undefined);
 		const g = await geo(input);
 		const d = await data(g);
 		setContent(d);
 	};
 
+	const toggleFav = async () => {
+		if (!input) return;
+
+		const g = await geo(input);
+		localStorage.setItem('fullframe:' + g.lat + ':' + g.lon, g.name);
+	};
+
+	// console.log(localStorage.getItem('search'));
+
 	return (
 		<>
 			<main>
 				<header>
-					<button>
+					<button onClick={toggleFav}>
 						<Image src='/unfav.png' width={30} height={30} alt='location' />
 					</button>
 					<input type='text' placeholder='location' value={input} onChange={textChange}></input>

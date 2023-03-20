@@ -4,19 +4,19 @@ Project FullFrame is a mega collection for the most popular web development fram
 
 ## App Idea - Simple Weather App
 
--   **User Interaction**
-    -   Search for current weather information of given location
--   **Storage**
-    -   Save favourite locations
--   **API Integration**
-    -   Retrieve weather data
--   **Routing**
-    -   Search / favourite page
+- **User Interaction**
+  - Search for current weather information of given location
+- **Storage**
+  - Save favourite locations
+- **API Integration**
+  - Retrieve weather data
+- **Routing**
+  - Search / favourite page
 
 ## Framework list, Status, and Thoughts
 
 <details>
-    <summary>⏸️ AngularJS</summary>
+    <summary>⏹️ AngularJS</summary>
 
 ### Overall Score
 
@@ -26,7 +26,7 @@ Rank #/10
 
 </details>
 <details>
-    <summary>⏸️ Django</summary>
+    <summary>⏹️ Django</summary>
 
 ### Overall Score
 
@@ -36,7 +36,7 @@ Rank #/10
 
 </details>
 <details>
-    <summary>⏸️ GatsbyJS</summary>
+    <summary>⏹️ GatsbyJS</summary>
 
 ### Overall Score
 
@@ -46,7 +46,7 @@ Rank #/10
 
 </details>
 <details>
-    <summary>⏸️ Net Core</summary>
+    <summary>⏹️ Net Core</summary>
 
 ### Overall Score
 
@@ -66,7 +66,7 @@ Rank #/10
 
 </details>
 <details>
-    <summary>⏸️ RemixJS</summary>
+    <summary>⏹️ RemixJS</summary>
 
 ### Overall Score
 
@@ -76,7 +76,7 @@ Rank #/10
 
 </details>
 <details>
-    <summary>⏸️ RubyOnRails</summary>
+    <summary>⏹️ RubyOnRails</summary>
 
 ### Overall Score
 
@@ -86,7 +86,7 @@ Rank #/10
 
 </details>
 <details>
-    <summary>⏸️ Svelte</summary>
+    <summary>⏹️ Svelte</summary>
 
 ### Overall Score
 
@@ -106,13 +106,13 @@ Rank #/10
 
 ### Thoughts
 
--   Storage is easy to manage with `window.localStorage`
--   Generating new HTML nodes for data display is very convoluted
--   Extremely small codebase, very easy to navigate
+- Storage is easy to manage with `window.localStorage`
+- Generating new HTML nodes for data display is very convoluted
+- Extremely small codebase, very easy to navigate
 
 </details>
 <details>
-    <summary>⏸️ VueJS</summary>
+    <summary>⏹️ VueJS</summary>
 
 ### Overall Score
 
