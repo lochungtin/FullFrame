@@ -7,6 +7,7 @@ import { useState } from 'react';
 export default function Home() {
 	const [input, setInput] = useState('');
 	const [content, setContent] = useState(undefined);
+	const [isFav, setIsFav] = useState(false);
 
 	const textChange = (ev) => setInput(ev.target.value);
 
@@ -17,6 +18,7 @@ export default function Home() {
 		const g = await geo(input);
 		const d = await data(g);
 		setContent(d);
+		setIsFav(localStorage.getItem('fullframe:' + g.lat + ':' + g.lon, g.name) !== null);
 	};
 
 	const toggleFav = async () => {
@@ -26,14 +28,12 @@ export default function Home() {
 		localStorage.setItem('fullframe:' + g.lat + ':' + g.lon, g.name);
 	};
 
-	// console.log(localStorage.getItem('search'));
-
 	return (
 		<>
 			<main>
 				<header>
 					<button onClick={toggleFav}>
-						<Image src='/unfav.png' width={30} height={30} alt='location' />
+						<Image src={isFav ? '/fav.png' : '/unfav.png'} width={30} height={30} alt='location' />
 					</button>
 					<input type='text' placeholder='location' value={input} onChange={textChange}></input>
 					<button onClick={search}>
