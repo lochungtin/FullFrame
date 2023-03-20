@@ -16,32 +16,32 @@ Project FullFrame is a mega collection for the most popular web development fram
 ## Framework list, Status, and Thoughts
 
 <details>
-    <summary>AngularJS - ⏸️</summary>    
+    <summary>⏸️ AngularJS</summary>    
 </details>
 <details>
-    <summary>Django - ⏸️</summary>    
+    <summary>⏸️ Django</summary>    
 </details>
 <details>
-    <summary>GatsbyJS - ⏸️</summary>    
+    <summary>⏸️ GatsbyJS</summary>    
 </details>
 <details>
-    <summary>Net Core - ⏸️</summary>    
+    <summary>⏸️ Net Core</summary>    
 </details>
 <details>
-    <summary>NextJS - ⏸️</summary>    
+    <summary>⏸️ NextJS</summary>    
 </details>
 <details>
-    <summary>ReactJS - ⏸️</summary>    
+    <summary>⏸️ ReactJS</summary>    
 </details>
 <details>
-    <summary>RubyOnRails - ⏸️</summary>    
+    <summary>⏸️ RubyOnRails</summary>    
 </details>
 <details>
-    <summary>Svelte - ⏸️</summary>    
+    <summary>⏸️ Svelte</summary>    
 </details>
 <details>
-    <summary>VanillaJS - ✅</summary>    
+    <summary>✅ VanillaJS</summary>    
 </details>
 <details>
-    <summary>VueJS - ⏸️</summary>    
+    <summary>⏸️ VueJS</summary>    
 </details>
