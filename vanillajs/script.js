@@ -1,24 +1,21 @@
-const url = 'http://api.weatherstack.com/current?access_key=f5b9cd140c1564433a8cc4bbb7e6ed8b&query=';
+const geo = 'http://api.openweathermap.org/geo/1.0/direct?appid=846080dfd0648555293c3f43584d7738&q=';
+const url = 'https://api.openweathermap.org/data/2.5/weather?appid=846080dfd0648555293c3f43584d7738&lat=';
 
 const submit = () => {
     const query = document.getElementById('query').value.toLowerCase();
-    fetch(url + query)
+    const main = document.getElementById('main');
+    main.innerHTML = "";
+
+    fetch(geo + query)
+        .then(res => res.json())
+        .then(val => fetch(url + val[0]['lat'] + '&lon=' + val[0]['lon']))
         .then(res => res.json())
         .then(val => {
-            console.log(val.location)
-            const humidity = val.current.humidity;
-            const temperature = val.current.temperature;
-            const day = val.current.is_day === 'yes' ? 'day' : 'night';
-            const code = val.current.weather_code;
-
-            const main = document.getElementById('main');
-            main.innerHTML = "";
-
             const article = document.createElement('article');
             const mainImg = document.createElement('img');
-            mainImg.src = '../assets/' + day + '/' + code + '.svg';
-            mainImg.width = 90;
-            mainImg.height = 90;
+            mainImg.src = 'https://openweathermap.org/img/wn/' + val.weather[0].icon + '@2x.png';
+            mainImg.width = 120;
+            mainImg.height = 120;
 
             const footer = document.createElement('footer');
             const tempDiv = document.createElement('div');
@@ -34,10 +31,10 @@ const submit = () => {
             humImg.height = 30
 
             const temp = document.createElement('p');
-            temp.innerHTML = '' + temperature + '°C';
+            temp.innerHTML = '' + Math.floor(val.main.temp - 273) + '°C';
 
             const hum = document.createElement('p');
-            hum.innerHTML = '' + humidity + '%';
+            hum.innerHTML = '' + val.main.humidity + '%';
 
             tempDiv.appendChild(tempImg);
             tempDiv.appendChild(temp);
