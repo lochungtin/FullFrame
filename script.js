@@ -23,10 +23,10 @@ const submit = () => {
 
             const tempImg = document.createElement('img');
             const humImg = document.createElement('img');
-            tempImg.src = '../assets/temp.png';
+            tempImg.src = 'assets/temp.png';
             tempImg.width = 30;
             tempImg.height = 30;
-            humImg.src = '../assets/humid.png';
+            humImg.src = 'assets/humid.png';
             humImg.width = 30;
             humImg.height = 30
 
