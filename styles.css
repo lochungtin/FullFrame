@@ -130,8 +130,12 @@ a {
 }
 
 @media screen and (max-width: 425px) {
+	section {
+		width: 100%;
+		gap: 0;
+	}
 	main {
-		width: 80%;
+		width: 70%;
 	}
 	header {
 		width: 100%;
@@ -143,7 +147,7 @@ a {
 		width: 80%;
 	}
 	a {
-		width: 80%;
+		width: 70%;
 	}
 }
 
