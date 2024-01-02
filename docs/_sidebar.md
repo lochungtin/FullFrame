@@ -15,6 +15,6 @@
 -   [NextJS](./frameworks/NextJS.md)
 -   [RemixJS](./frameworks/RemixJS.md)
 -   [RubyOnRails](./frameworks/RubyOnRails.md)
--   [SvelteJS](./frameworks/SvelteJS.md)
+-   [Svelte](./frameworks/Svelte.md)
 -   [VanillaJS](./frameworks/VanillaJS.md)
 -   [VueJS](./frameworks/VueJS.md)
