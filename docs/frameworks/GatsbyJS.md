@@ -26,8 +26,6 @@ npm run develop
 
 A local server was start at port `3000`.
 
-`npm run dev` is used as the default launch command for the local development server, which is unique compared to the usual `npm start`.
-
 ## Final Thoughts
 
 ## Versions and Details

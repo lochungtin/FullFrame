@@ -25,7 +25,7 @@ The command I used to launch the application.
 npm start
 ```
 
-A local server was start at port `4200`.
+A local server was start at port `4200`, which is rather unique compared to the usual `3000`, `5000`, or `8000`.
 
 ## Final Thoughts
 
