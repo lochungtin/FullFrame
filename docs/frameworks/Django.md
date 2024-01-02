@@ -8,7 +8,7 @@ Command I used to create initial the project directory.
 
 ```bash
 python -m pip install Django
-django-admin startproject django
+django-admin startproject <project-name>
 ```
 
 The name for the project `django` was not allow dued to it clashing with an existing Python module.
