@@ -26,6 +26,6 @@ The following is the list of frameworks used in the project and the status of th
 | NextJS      | 📒 Backlog         |
 | RemixJS     | 📒 Backlog         |
 | RubyOnRails | 📒 Backlog         |
-| SvelteJS    | 📒 Backlog         |
+| Svelte      | 📒 Backlog         |
 | VanillaJS   | 📒 Backlog         |
 | VueJS       | 📒 Backlog         |
