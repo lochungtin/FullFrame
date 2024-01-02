@@ -21,7 +21,7 @@ Installation took significantly longer compared to lighter frameworks such as Ne
 
 The command I used to launch the application.
 
-```
+```bash
 npm start
 ```
 

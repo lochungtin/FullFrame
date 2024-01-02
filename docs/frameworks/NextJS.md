@@ -18,7 +18,7 @@ I was prompted with a few creations for further customisation, all of the defaul
 
 The command I used to launch the application.
 
-```
+```bash
 npm run dev
 ```
 

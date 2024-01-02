@@ -17,7 +17,7 @@ The name for the project `django` was not allow dued to it clashing with an exis
 
 The command I used to launch the application.
 
-```
+```bash
 python manage.py runserver
 ```
 
