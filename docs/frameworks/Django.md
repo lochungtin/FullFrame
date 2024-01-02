@@ -4,7 +4,7 @@
 
 ## Initialisation
 
-Command I used to create initial the project directory.
+The commands I used to create initial the project directory.
 
 ```bash
 python -m pip install Django

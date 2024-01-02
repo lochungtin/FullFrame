@@ -4,7 +4,7 @@
 
 ## Initialisation
 
-Command I used to create initial the project directory.
+The command I used to create initial the project directory.
 
 ```bash
 npx create-next-app <project-name>
