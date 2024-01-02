@@ -30,4 +30,4 @@ A local server was start at port `3000`.
 
 ## Versions and Details
 
-`Next 14`
+`Next 14.0.4`

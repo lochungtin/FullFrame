@@ -31,4 +31,4 @@ A local server was start at port `4200`.
 
 ## Versions and Details
 
-`Angular 17`
+`Angular 17.0.0`

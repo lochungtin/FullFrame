@@ -32,4 +32,4 @@ A local server was start at port `3000`.
 
 ## Versions and Details
 
-`Angular 17`
+`Gatsby 5.13.0`

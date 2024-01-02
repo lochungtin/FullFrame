@@ -31,4 +31,4 @@ A local server was start at port `8000`.
 
 ## Versions and Details
 
-`Django 5`
+`Django 4.2.8`
