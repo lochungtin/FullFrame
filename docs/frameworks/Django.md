@@ -15,6 +15,8 @@ The name for the project `django` was not allow dued to it clashing with an exis
 
 ## Thoughts During Development
 
+### First Launch
+
 The command I used to launch the application.
 
 ```bash
